@@ -1,5 +1,8 @@
 # Changelog
 
+### v3.0.0
+* Initial MDG release.
+
 ### v2.30.4
 
 * Use `Object.create(null)` rather than object initializer notation when initializing objects to store metric data.
