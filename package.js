@@ -1,8 +1,8 @@
 Package.describe({
-  "summary": "Performance Monitoring for Meteor",
-  "version": "2.30.2",
-  "git": "https://github.com/meteorhacks/kadira.git",
-  "name": "meteorhacks:kadira"
+  "summary": "Performance Monitoring for Meteor Reporting to NewRelic",
+  "version": "0.1.0",
+  "git": "https://github.com/riffyninc/kadira-newrelic-connector.git",
+  "name": "riffyninc:kadira-newrelic-connector"
 });
 
 var npmModules = {
@@ -110,6 +110,7 @@ function configurePackage(api) {
     'lib/utils.js',
     'lib/ntp.js',
     'lib/wait_time_builder.js',
+    'lib/new_relic_reporter.js',
     'lib/check_for_oplog.js',
     'lib/tracer/tracer.js',
     'lib/tracer/default_filters.js',
