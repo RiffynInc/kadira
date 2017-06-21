@@ -6,13 +6,14 @@ Package.describe({
 });
 
 var npmModules = {
-  "debug": "0.7.4",
+  "debug": "2.6.8",
   "kadira-core": "1.3.2",
   "pidusage": "1.0.1",
   "evloop-monitor": "0.1.0",
   "pidusage": "0.1.1",
   "lru-cache": "4.0.0",
-  "json-stringify-safe": "5.0.1"
+  "json-stringify-safe": "5.0.1",
+  "newrelic":"1.40.0",
 };
 
 Npm.depends(npmModules);
