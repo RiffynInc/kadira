@@ -12,7 +12,7 @@ var npmModules = {
   "evloop-monitor": "0.1.0",
   "lru-cache": "4.0.0",
   "json-stringify-safe": "5.0.1",
-  "newrelic":"1.40.0",
+  "newrelic":"1.40.0"
 };
 
 Npm.depends(npmModules);
