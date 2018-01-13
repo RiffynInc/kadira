@@ -1,6 +1,6 @@
 Package.describe({
   "summary": "Performance Monitoring for Meteor Reporting to NewRelic",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "git": "https://github.com/riffyninc/kadira-newrelic-connector.git",
   "name": "riffyninc:kadira-newrelic-connector"
 });
@@ -95,7 +95,7 @@ function configurePackage(api) {
     'minimongo', 'livedata', 'mongo-livedata', 'ejson', 'ddp-common',
     'underscore', 'http', 'email', 'random'
   ], ['server']);
-  api.use(['underscore', 'random', 'jquery', 'localstorage'], ['client']);
+  api.use(['underscore', 'random', 'http', 'localstorage'], ['client']);
 
   // common before
   api.add_files([
