@@ -1,6 +1,6 @@
 Package.describe({
   "summary": "Performance Monitoring for Meteor Reporting to NewRelic",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "git": "https://github.com/riffyninc/kadira-newrelic-connector.git",
   "name": "riffyninc:kadira-newrelic-connector"
 });
